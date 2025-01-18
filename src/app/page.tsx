@@ -22,6 +22,13 @@ const HomePage: React.FC = () => {
             <Button variant="ghost" className="text-black">Dropdown</Button>
             <Button variant="ghost" className="text-gray-400" disabled>Disabled</Button>
           </nav>
+          <input
+            type="text"
+            value={searchValue}
+            onChange={handleSearchChange}
+            placeholder="Search..."
+            className="w-64 p-2 border border-gray-300 rounded-md"
+          />
         </div>
       </header>
 
