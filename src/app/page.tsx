@@ -1,7 +1,7 @@
 'use client';
 import { useState, ChangeEvent } from 'react';
 import { Button } from './components/ui/button';
-import { Input } from './components/ui/input';
+// import { Input } from './components/ui/input';
 
 import { 
   Phone,  
@@ -37,13 +37,13 @@ const HomePage: React.FC = () => {
             <Button variant="ghost" className="text-black">Dropdown</Button>
             <Button variant="ghost" className="text-gray-400" disabled>Disabled</Button>
           </nav>
-          <Input
+          {/* <Input
             type="text"
             value={searchValue}
             onChange={handleSearchChange}
             placeholder="Search..."
             className="w-64"
-          />
+          /> */}
         </div>
       </header>
 
